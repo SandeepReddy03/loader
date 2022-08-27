@@ -1,0 +1,32 @@
+.list-item {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 1px 2px #7895b3;
+  margin: 10px;
+}
+@media screen and (min-width: 768px) {
+  .list-item {
+    width: 200px;
+    box-shadow: 1px 2px grey;
+    margin: 15px;
+  }
+}
+.project-img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.project-para {
+  color: black;
+  font-size: 15px;
+  padding: 10px;
+}
+@media screen and (min-width: 768px) {
+  .project-para {
+    font-size: 22px;
+    padding: 18px;
+  }
+}
