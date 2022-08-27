@@ -135,8 +135,8 @@ class App extends Component {
           >
             {categoriesList.map(eachOne => (
               <option
-                value={eachOne.id}
                 key={eachOne.id}
+                value={eachOne.id}
                 className="select-option"
               >
                 {eachOne.displayText}
